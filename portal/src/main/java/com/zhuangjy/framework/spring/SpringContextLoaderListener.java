@@ -29,10 +29,6 @@ import java.beans.Introspector;
 
 /**
  * portal启动及挂起监听器
- *
- * @author 刘圳
- * @version 1.0 2011-9-26
- * @since 2.0
  */
 public class SpringContextLoaderListener extends ContextLoaderListener {
     private static AnnotationConfigWebApplicationContext rootContext;
